@@ -56,6 +56,20 @@ body::before {
   pointer-events: none;
 }
 
+.section-spacing {
+  margin-top: 80px;
+}
+@media (max-width: 1000px) {
+  .section-spacing {
+    margin-top: 64px;
+  }
+}
+@media (max-width: 750px) {
+  .section-spacing {
+    margin-top: 40px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

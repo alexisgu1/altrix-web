@@ -3,7 +3,7 @@ import videoPlaceholder from '../video_placeholder.png';
 
 export default function VideoPlaceholder() {
   return (
-    <div className="video-placeholder-wrapper">
+    <div className="video-placeholder-wrapper section-spacing">
       <img
         src={videoPlaceholder}
         alt="Video Placeholder"

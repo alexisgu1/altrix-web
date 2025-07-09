@@ -77,7 +77,7 @@ export default function FeaturesTimeline() {
   }, []);
 
   return (
-    <section className="features-timeline">
+    <section className="features-timeline section-spacing">
       <h2 className="features-timeline-title">
         Empower Nurses with a Complete<br />
         Suite of Synergistic Modules.

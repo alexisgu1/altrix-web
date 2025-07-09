@@ -44,7 +44,7 @@ export default function PhotoCarousel() {
       const elapsed = (timestamp - lastTimestamp) / 1000;
       lastTimestamp = timestamp;
       offsetRef.current -= speed * elapsed;
-      // When the first set has fully scrolled out of view, reset to 0
+      // When we've scrolled the width of one set, reset to the beginning of the second set
       if (setWidthRef.current > 0 && Math.abs(offsetRef.current) >= setWidthRef.current) {
         console.log('RESET! offset:', offsetRef.current, 'setWidth:', setWidthRef.current);
         offsetRef.current = 0;
@@ -59,7 +59,7 @@ export default function PhotoCarousel() {
   }, []);
 
   return (
-    <section className="photo-carousel-section">
+    <section className="photo-carousel-section section-spacing">
       <h2 className="photo-carousel-title">
         Empower Nurses with a Complete<br />
         Suite of Synergistic Modules.
@@ -77,6 +77,13 @@ export default function PhotoCarousel() {
             {images.map((img, i) => (
               <div className="carousel-img-wrapper" key={i+images.length}>
                 <img src={img} alt={`carousel ${i+images.length}`} className="carousel-img" />
+              </div>
+            ))}
+          </div>
+          <div className="carousel-set">
+            {images.map((img, i) => (
+              <div className="carousel-img-wrapper" key={i+images.length*2}>
+                <img src={img} alt={`carousel ${i+images.length*2}`} className="carousel-img" />
               </div>
             ))}
           </div>
