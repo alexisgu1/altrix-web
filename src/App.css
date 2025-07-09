@@ -28,6 +28,25 @@
   color: #61dafb;
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('./altrix.png') center center/cover no-repeat;
+  opacity: 0.8;
+  z-index: -1;
+  pointer-events: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
