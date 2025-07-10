@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import VideoPlaceholder from './components/VideoPlaceholder';
 import FeaturesTimeline from './components/FeaturesTimeline';
 import PhotoCarousel from './components/PhotoCarousel';
+import Testimonial from './components/Testimonial';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <VideoPlaceholder />
       <FeaturesTimeline />
       <PhotoCarousel />
+      <Testimonial />
     </div>
   );
 }

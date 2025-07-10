@@ -1,13 +1,16 @@
 .features-timeline {
   color: #222b45;
-  padding: 0 40px 120px 40px;
+  padding: 8px 40px 40px 40px;
   text-align: center;
+  
 }
 
 @media (max-width: 750px) {
   .features-timeline {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 32px;
+    padding-bottom: 16px;
   }
 }
 
@@ -15,6 +18,12 @@
   display: flex;
   flex-direction: column;
   gap: 64px;
+}
+
+@media (max-width: 1100px) {
+  .timeline-list {
+    gap: 32px;
+  }
 }
 
 .timeline-item {
