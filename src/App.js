@@ -11,10 +11,18 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <VideoPlaceholder />
-      <FeaturesTimeline />
-      <PhotoCarousel />
-      <Testimonial />
+      <div className="section-spacing">
+        <VideoPlaceholder />
+      </div>
+      <div className="section-spacing">
+        <FeaturesTimeline />
+      </div>
+      <div className="section-spacing">
+        <PhotoCarousel />
+      </div>
+      <div className="section-spacing">
+        <Testimonial />
+      </div>
     </div>
   );
 }

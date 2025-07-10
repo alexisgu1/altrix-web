@@ -39,16 +39,14 @@ export default function Header() {
           <button className="menu-btn" onClick={() => setMenuOpen(m => !m)} aria-label="Open menu">
             <img src={menuIcon} alt="menu" style={{width: 18, height: 12}} />
           </button>
-          {menuOpen && (
-            <div className="dropdown-menu">
-              <a href="#" className="active">Platform</a>
-              <a href="#">Security</a>
-              <a href="#">Company</a>
-              <a href="#">Legal</a>
-              <a href="#">Research</a>
-              <button className="demo-btn outline dropdown-demo-btn">Request a demo</button>
-            </div>
-          )}
+          <div className={`dropdown-menu ${menuOpen ? 'show' : ''}`}>
+            <a href="#" className="active">Platform</a>
+            <a href="#">Security</a>
+            <a href="#">Company</a>
+            <a href="#">Legal</a>
+            <a href="#">Research</a>
+            <button className="demo-btn outline dropdown-demo-btn">Request a demo</button>
+          </div>
         </>
       )}
       {!collapsed && (

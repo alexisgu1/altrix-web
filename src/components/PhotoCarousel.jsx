@@ -61,8 +61,8 @@ export default function PhotoCarousel() {
   return (
     <section className="photo-carousel-section section-spacing">
       <h2 className="photo-carousel-title">
-        Empower Nurses with a Complete<br />
-        Suite of Synergistic Modules.
+      Co-Developed with Leading<br />
+      RNs, CNOs, & Engineers
       </h2>
       <div className="carousel-outer" ref={outerRef}>
         <div className="carousel-track" ref={trackRef}>
