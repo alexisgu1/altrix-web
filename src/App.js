@@ -4,6 +4,8 @@ import VideoPlaceholder from './components/VideoPlaceholder';
 import FeaturesTimeline from './components/FeaturesTimeline';
 import PhotoCarousel from './components/PhotoCarousel';
 import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
+import EnterpriseFeatures from './components/EnterpriseFeatures';
 import './App.css';
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
       <div className="section-spacing">
         <Testimonial />
       </div>
+      <EnterpriseFeatures />
+      <Footer />
     </div>
   );
 }

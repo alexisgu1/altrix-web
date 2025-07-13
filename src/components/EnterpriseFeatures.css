@@ -1,0 +1,170 @@
+/* Enterprise Features Section */
+.enterprise-features {
+  width: 100%;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-lg);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  background: none;
+}
+
+/* Enterprise Heading Group */
+.enterprise-heading-group {
+  text-align: center;
+  margin: 0 0 var(--spacing-lg) 0;
+  gap: var(--spacing-xs);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Enterprise Heading */
+.enterprise-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+/* Enterprise Subheading */
+.enterprise-subheading {
+  font-size: 20px;
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Enterprise Cards Container */
+.enterprise-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: var(--spacing-lg);
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Enterprise Card */
+.enterprise-card {
+  background: var(--color-white);
+  border-radius: var(--spacing-sm);
+  box-shadow: 0 2px 16px rgba(30, 41, 59, 0.06);
+  padding: var(--spacing-lg);
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.enterprise-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(30, 41, 59, 0.15);
+}
+
+/* Enterprise Icon */
+.enterprise-icon {
+  margin-bottom: var(--spacing-md);
+  background: #f1f1f1;
+  border-radius: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--spacing-xl);
+  height: var(--spacing-xl);
+}
+
+.enterprise-icon img {
+  max-height: var(--spacing-md);
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+/* Enterprise Card Title */
+.enterprise-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-primary);
+}
+
+/* Enterprise Card Description */
+.enterprise-card-desc {
+  font-size: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Tablet Breakpoint */
+@media (max-width: 1160px) {
+  .enterprise-heading {
+    font-size: 28px;
+  }
+  
+  .enterprise-subheading {
+    font-size: var(--spacing-sm);
+  }
+}
+
+/* Small Tablet/Large Mobile Breakpoint */
+@media (max-width: 1000px) {
+  .enterprise-features {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+  }
+  
+  .enterprise-heading {
+    font-size: var(--spacing-md);
+  }
+  
+  .enterprise-cards {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: center;
+  }
+  
+  .enterprise-card {
+    width: 100%;
+    padding: var(--spacing-md);
+  }
+  
+  .enterprise-card-title {
+    font-size: var(--spacing-sm);
+  }
+  
+  .enterprise-card-desc {
+    font-size: 14px;
+  }
+  
+  .enterprise-icon {
+    width: var(--spacing-lg);
+    height: var(--spacing-lg);
+    padding: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
+    border-radius: var(--spacing-xs);
+  }
+  
+  .enterprise-icon img {
+    max-height: var(--spacing-sm);
+  }
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 750px) {
+  .enterprise-features {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  
+  .enterprise-card:hover {
+    transform: scale(1.02);
+  }
+}
