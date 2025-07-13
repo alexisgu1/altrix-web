@@ -6,6 +6,7 @@ import PhotoCarousel from './components/PhotoCarousel';
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import EnterpriseFeatures from './components/EnterpriseFeatures';
+import CTASection from './components/CTASection';
 import './App.css';
 
 function App() {
@@ -13,19 +14,12 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
-      <div className="section-spacing">
-        <VideoPlaceholder />
-      </div>
-      <div className="section-spacing">
-        <FeaturesTimeline />
-      </div>
-      <div className="section-spacing">
-        <PhotoCarousel />
-      </div>
-      <div className="section-spacing">
-        <Testimonial />
-      </div>
+      <VideoPlaceholder />
+      <FeaturesTimeline />
+      <PhotoCarousel />
+      <Testimonial />
       <EnterpriseFeatures />
+      <CTASection />
       <Footer />
     </div>
   );

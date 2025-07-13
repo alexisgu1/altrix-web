@@ -4,9 +4,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 144px 120px 0 120px;
+    margin-top: 160px;
+    margin-bottom: var(--spacing-lg);
+    padding-left: 120px;
+    padding-right: 120px;
     text-align: center;
-    margin: 0;
     gap: var(--spacing-xs);
     opacity: 0;
     transform: translateY(var(--spacing-lg));
@@ -69,10 +71,6 @@
   
   /* Tablet Breakpoint */
   @media (max-width: 1160px) {
-    .hero {
-        padding-top: 120px;
-    }
-
     .hero-title {
       font-size: 40px;
     }
@@ -87,8 +85,23 @@
     }
   }
   
+  /* Small Tablet/Large Mobile Breakpoint */
+  @media (max-width: 1000px) {
+    .hero {
+      margin-top: 120px;
+      margin-bottom: var(--spacing-md);
+      padding-left: var(--spacing-lg);
+      padding-right: var(--spacing-lg);
+    }
+  }
+  
   /* Mobile Breakpoint */
   @media (max-width: 750px) {
+    .hero {
+      margin-bottom: var(--spacing-md);
+      padding-left: var(--spacing-md);
+      padding-right: var(--spacing-md);
+    }
     
     .hero-title {
       font-size: 40px;

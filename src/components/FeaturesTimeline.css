@@ -197,8 +197,8 @@
     .features-timeline {
       margin-top: var(--spacing-md);
       margin-bottom: var(--spacing-md);
-      padding-left: var(--spacing-md);
-      padding-right: var(--spacing-md);
+      padding-left: var(--spacing-lg);
+      padding-right: var(--spacing-lg);
     }
     
     .features-timeline-title {

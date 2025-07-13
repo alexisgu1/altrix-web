@@ -8,7 +8,7 @@
   color: var(--color-white);
   width: 100vw;
   margin-top: var(--spacing-lg);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
   padding: var(--spacing-lg);
   box-sizing: border-box;
   min-height: 420px;
@@ -115,12 +115,6 @@
   margin: 0;
 }
 
-@media (max-width: 1160px) {
-  .testimonial-section {
-    /* Keep the same margin-top/bottom */
-  }
-}
-
 /* Large Tablet Breakpoint */
 @media (max-width: 1100px) {
   .testimonial-section {
@@ -188,7 +182,7 @@
 @media (max-width: 1000px) {
   .testimonial-section {
     margin-top: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg); /* Keep the larger bottom margin */
     padding-left: var(--spacing-lg);
     padding-right: var(--spacing-lg);
   }
@@ -198,7 +192,7 @@
 @media (max-width: 750px) {
   .testimonial-section {
     margin-top: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg); /* Keep the larger bottom margin */
     padding-left: var(--spacing-md);
     padding-right: var(--spacing-md);
   }
