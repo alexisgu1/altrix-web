@@ -8,7 +8,7 @@
   color: var(--color-white);
   width: 100vw;
   margin-top: var(--spacing-lg);
-  margin-bottom: var(--spacing-xl);
+  margin-bottom: 80px;
   padding: var(--spacing-lg);
   box-sizing: border-box;
   min-height: 420px;
