@@ -1,8 +1,8 @@
 import React from 'react';
 import './EnterpriseFeatures.css';
-import handIcon from './icons/hand.png';
-import lockIcon from './icons/lock.png';
-import signalIcon from './icons/signal.png';
+import handIcon from '../components/icons/hand.png';
+import lockIcon from '../components/icons/lock.png';
+import signalIcon from '../components/icons/signal.png';
 
 export default function EnterpriseFeatures() {
   return (

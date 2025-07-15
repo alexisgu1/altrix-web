@@ -8,7 +8,7 @@
   color: var(--color-white);
   width: 100vw;
   margin-top: var(--spacing-lg);
-  margin-bottom: 80px;
+  margin-bottom: var(--spacing-xl);
   padding: var(--spacing-lg);
   box-sizing: border-box;
   min-height: 420px;
@@ -182,7 +182,7 @@
 @media (max-width: 1000px) {
   .testimonial-section {
     margin-top: var(--spacing-md);
-    margin-bottom: var(--spacing-lg); /* Keep the larger bottom margin */
+    margin-bottom: var(--spacing-xl); /* Keep the larger bottom margin */
     padding-left: var(--spacing-lg);
     padding-right: var(--spacing-lg);
   }

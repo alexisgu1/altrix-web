@@ -3,7 +3,7 @@
 .features-timeline {
     color: var(--color-text-primary);
     margin-top: var(--spacing-lg);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
     padding-left: var(--spacing-lg);
     padding-right: var(--spacing-lg);
     text-align: center;
@@ -196,7 +196,7 @@
   @media (max-width: 1000px) {
     .features-timeline {
       margin-top: var(--spacing-md);
-      margin-bottom: var(--spacing-md);
+      margin-bottom: var(--spacing-xl);
       padding-left: var(--spacing-lg);
       padding-right: var(--spacing-lg);
     }
@@ -263,7 +263,7 @@
   @media (max-width: 750px) {
     .features-timeline {
       margin-top: var(--spacing-md);
-      margin-bottom: var(--spacing-md);
+      margin-bottom: var(--spacing-lg);
       padding-left: var(--spacing-sm);
       padding-right: var(--spacing-sm);
     }

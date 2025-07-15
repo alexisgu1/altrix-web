@@ -2,7 +2,7 @@
 .enterprise-features {
   width: 100%;
   margin-top: var(--spacing-lg);
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-xl);
   padding-left: var(--spacing-lg);
   padding-right: var(--spacing-lg);
   background: none;
@@ -114,7 +114,7 @@
 @media (max-width: 1000px) {
   .enterprise-features {
     margin-top: var(--spacing-md);
-    margin-bottom: 48px;
+    margin-bottom: var(--spacing-xl);
     padding-left: var(--spacing-lg);
     padding-right: var(--spacing-lg);
   }
@@ -159,7 +159,7 @@
 @media (max-width: 750px) {
   .enterprise-features {
     margin-top: var(--spacing-md);
-    margin-bottom: 48px;
+    margin-bottom: var(--spacing-lg);
     padding-left: var(--spacing-md);
     padding-right: var(--spacing-md);
   }

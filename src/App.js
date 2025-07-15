@@ -1,18 +1,21 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import VideoPlaceholder from './components/VideoPlaceholder';
-import FeaturesTimeline from './components/FeaturesTimeline';
-import PhotoCarousel from './components/PhotoCarousel';
-import Testimonial from './components/Testimonial';
+import Hero from './Platform/Hero';
+import VideoPlaceholder from './Platform/VideoPlaceholder';
+import FeaturesTimeline from './Platform/FeaturesTimeline';
+import PhotoCarousel from './Platform/PhotoCarousel';
+import Testimonial from './Platform/Testimonial';
 import Footer from './components/Footer';
-import EnterpriseFeatures from './components/EnterpriseFeatures';
-import CTASection from './components/CTASection';
+import EnterpriseFeatures from './Platform/EnterpriseFeatures';
+import CTASection from './Platform/CTASection';
+import SecurityPage from './components/SecurityPage';
 import './App.css';
 
-function App() {
+// Home page component
+const HomePage = () => {
   return (
-    <div className="App">
-      <Header />
+    <>
       <Hero />
       <VideoPlaceholder />
       <FeaturesTimeline />
@@ -20,8 +23,22 @@ function App() {
       <Testimonial />
       <EnterpriseFeatures />
       <CTASection />
-      <Footer />
-    </div>
+    </>
+  );
+};
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/security" element={<SecurityPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
