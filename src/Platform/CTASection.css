@@ -12,12 +12,12 @@
   .cta-title {
     font-size: 32px;
     font-weight: 700;
-    margin: 0 0 var(--spacing-lg) 0;
     color: var(--color-text-primary);
   }
   
   /* CTA Buttons Container */
   .cta-buttons {
+    margin-top: var(--spacing-lg);
     display: flex;
     gap: var(--spacing-md);
     justify-content: center;
@@ -78,17 +78,16 @@
   @media (max-width: 1000px) {
     .cta-section {
       margin-top: var(--spacing-md);
-      margin-bottom: var(--spacing-md);
       padding-left: var(--spacing-lg);
       padding-right: var(--spacing-lg);
     }
     
     .cta-title {
       font-size: var(--spacing-md);
-      margin-bottom: var(--spacing-md);
     }
     
     .cta-buttons {
+      margin-top: var(--spacing-md);
       gap: var(--spacing-sm);
     }
   }
