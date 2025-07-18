@@ -1,0 +1,186 @@
+/* Security Compliance Section */
+.security-compliance {
+  width: 100%;
+  margin-top: 104px;
+  margin-bottom: var(--spacing-xl);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  background: none;
+  opacity: 0;
+  animation: security-compliance-fade-in 1s cubic-bezier(0.4, 0, 0.2, 1) 0.2s forwards;
+}
+
+/* Security Compliance Fade-in Animation */
+@keyframes security-compliance-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Security Compliance Heading Group */
+.security-compliance-heading-group {
+  text-align: center;
+  margin: 0 0 var(--spacing-lg) 0;
+  gap: var(--spacing-xs);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Security Compliance Heading */
+.security-compliance-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+/* Security Compliance Subheading */
+.security-compliance-subheading {
+  font-size: 20px;
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Security Compliance Cards Container */
+.security-compliance-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: var(--spacing-lg);
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Security Compliance Card */
+.security-compliance-card {
+  background: var(--color-white);
+  border-radius: var(--spacing-sm);
+  box-shadow: 0 2px 16px rgba(30, 41, 59, 0.06);
+  padding: var(--spacing-lg);
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.security-compliance-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(30, 41, 59, 0.15);
+}
+
+/* Security Compliance Icon */
+.security-compliance-icon {
+  margin-bottom: var(--spacing-md);
+  background: #f1f1f1;
+  border-radius: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--spacing-xl);
+  height: var(--spacing-xl);
+}
+
+.security-compliance-icon img {
+  max-height: var(--spacing-md);
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0;
+}
+
+/* Security Compliance Card Title */
+.security-compliance-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-primary);
+}
+
+/* Security Compliance Card Description */
+.security-compliance-card-desc {
+  font-size: var(--spacing-sm);
+  color: var(--color-text-secondary);
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Tablet Breakpoint */
+@media (max-width: 1160px) {
+  .security-compliance {
+    margin-top: var(--spacing-2xl);
+  }
+
+  .security-compliance-heading {
+    font-size: 28px;
+  }
+  
+  .security-compliance-subheading {
+    font-size: var(--spacing-sm);
+  }
+}
+
+/* Small Tablet/Large Mobile Breakpoint */
+@media (max-width: 1000px) {
+  .security-compliance {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+  }
+  
+  .security-compliance-heading {
+    font-size: var(--spacing-md);
+  }
+  
+  .security-compliance-cards {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: center;
+  }
+  
+  .security-compliance-card {
+    width: 100%;
+    padding: var(--spacing-md);
+  }
+  
+  .security-compliance-card-title {
+    font-size: var(--spacing-sm);
+  }
+  
+  .security-compliance-card-desc {
+    font-size: 14px;
+  }
+  
+  .security-compliance-icon {
+    width: var(--spacing-lg);
+    height: var(--spacing-lg);
+    padding: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
+    border-radius: var(--spacing-xs);
+  }
+  
+  .security-compliance-icon img {
+    max-height: var(--spacing-sm);
+  }
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 750px) {
+  .security-compliance {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  
+  .security-compliance-card:hover {
+    transform: scale(1.02);
+  }
+} 
