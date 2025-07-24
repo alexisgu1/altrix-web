@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/altrix-web/static/css/main.5fac1f31.css",
+    "main.js": "/altrix-web/static/js/main.3709c206.js",
+    "static/js/453.790d0872.chunk.js": "/altrix-web/static/js/453.790d0872.chunk.js",
+    "static/media/video_placeholder.png": "/altrix-web/static/media/video_placeholder.242aa520d9cc9b801d7f.png",
+    "static/media/altrix.png": "/altrix-web/static/media/altrix.d78d41b7bbb7aa0c9b87.png",
+    "static/media/image 9.png": "/altrix-web/static/media/image 9.09475c271423a81c653c.png",
+    "static/media/image 5.png": "/altrix-web/static/media/image 5.5d1296dbf6d4d8cf4c65.png",
+    "static/media/image 8.png": "/altrix-web/static/media/image 8.41c2701867e095af9efd.png",
+    "static/media/image 3.png": "/altrix-web/static/media/image 3.ad37d9a6dabe10c520ec.png",
+    "static/media/image 4.png": "/altrix-web/static/media/image 4.8ac8a1f54df54b2f166a.png",
+    "static/media/image 2.png": "/altrix-web/static/media/image 2.656a4cf7e214bd6a7aed.png",
+    "static/media/image 1.png": "/altrix-web/static/media/image 1.2fd5c2e2530155ac3151.png",
+    "static/media/image 10.png": "/altrix-web/static/media/image 10.62f7c96ce9b268a0badb.png",
+    "static/media/image 6.png": "/altrix-web/static/media/image 6.9ff5e4b45a487a2c3afc.png",
+    "static/media/logo.png": "/altrix-web/static/media/logo.1f6fe2f5ead0c963175c.png",
+    "static/media/image 7.png": "/altrix-web/static/media/image 7.a4794cc91b156142d9d8.png",
+    "index.html": "/altrix-web/index.html",
+    "main.5fac1f31.css.map": "/altrix-web/static/css/main.5fac1f31.css.map",
+    "main.3709c206.js.map": "/altrix-web/static/js/main.3709c206.js.map",
+    "453.790d0872.chunk.js.map": "/altrix-web/static/js/453.790d0872.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fac1f31.css",
+    "static/js/main.3709c206.js"
+  ]
+}
