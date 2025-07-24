@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/altrix-web/static/css/main.2c805e2f.css",
+    "main.css": "/altrix-web/static/css/main.740dae41.css",
     "main.js": "/altrix-web/static/js/main.50fdfdbd.js",
     "static/js/453.790d0872.chunk.js": "/altrix-web/static/js/453.790d0872.chunk.js",
     "static/media/video_placeholder.png": "/altrix-web/static/media/video_placeholder.242aa520d9cc9b801d7f.png",
@@ -17,12 +17,12 @@
     "static/media/logo.png": "/altrix-web/static/media/logo.1f6fe2f5ead0c963175c.png",
     "static/media/image 7.png": "/altrix-web/static/media/image 7.a4794cc91b156142d9d8.png",
     "index.html": "/altrix-web/index.html",
-    "main.2c805e2f.css.map": "/altrix-web/static/css/main.2c805e2f.css.map",
+    "main.740dae41.css.map": "/altrix-web/static/css/main.740dae41.css.map",
     "main.50fdfdbd.js.map": "/altrix-web/static/js/main.50fdfdbd.js.map",
     "453.790d0872.chunk.js.map": "/altrix-web/static/js/453.790d0872.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c805e2f.css",
+    "static/css/main.740dae41.css",
     "static/js/main.50fdfdbd.js"
   ]
 }
