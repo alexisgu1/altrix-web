@@ -1,0 +1,134 @@
+/* Enterprise Features Section */
+.enterprise-features {
+  width: 100%;
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-xl);
+  padding-left: var(--spacing-lg);
+  padding-right: var(--spacing-lg);
+  background: none;
+}
+
+/* Enterprise Heading */
+.enterprise-heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text-primary);
+}
+
+/* Enterprise Cards Container */
+.enterprise-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: var(--spacing-lg);
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Enterprise Card */
+.enterprise-card {
+  background: var(--color-white);
+  border-radius: var(--spacing-sm);
+  box-shadow: 0 2px 16px rgba(30, 41, 59, 0.06);
+  padding: var(--spacing-lg);
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-height: 280px;
+}
+
+.enterprise-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 32px rgba(30, 41, 59, 0.15);
+}
+
+/* Enterprise Photo */
+.enterprise-photo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enterprise-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--spacing-xs);
+  display: block;
+}
+
+/* Fixed width photos (image 8) */
+.photo-fixed-width img {
+  width: 170px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-fixed-width-wide img {
+  width: 280px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fixed height photo (image 10) */
+.photo-fixed-height img {
+  width: 170px;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Tablet Breakpoint */
+@media (max-width: 1160px) {
+  .enterprise-heading {
+    font-size: 28px;
+  }
+  
+  .enterprise-subheading {
+    font-size: var(--spacing-sm);
+  }
+}
+
+/* Small Tablet/Large Mobile Breakpoint */
+@media (max-width: 1000px) {
+  .enterprise-features {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+  }
+  
+  .enterprise-heading {
+    font-size: var(--spacing-md);
+  }
+  
+  .enterprise-cards {
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: center;
+  }
+  
+  .enterprise-card {
+    width: 100%;
+    padding: var(--spacing-md);
+  }
+}
+
+/* Mobile Breakpoint */
+@media (max-width: 750px) {
+  .enterprise-features {
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+  }
+  
+  .enterprise-card:hover {
+    transform: scale(1.02);
+  }
+} 

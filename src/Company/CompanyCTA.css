@@ -1,0 +1,106 @@
+/* CTA Section */
+.cta-section {
+    color: var(--color-text-primary);
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    padding-left: var(--spacing-lg);
+    padding-right: var(--spacing-lg);
+    text-align: center;
+  }
+  
+  /* CTA Title */
+  .cta-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-text-primary);
+  }
+  
+  /* CTA Buttons Container */
+  .cta-buttons {
+    margin-top: var(--spacing-lg);
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* CTA Demo Button (Primary - same as hero) */
+  .cta-demo-btn {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 12px var(--spacing-md);
+    border: none;
+    border-radius: var(--spacing-xs);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .cta-demo-btn:hover {
+    background: var(--color-primary-hover);
+    color: var(--color-white);
+  }
+  
+  /* CTA Research Button (Secondary) */
+  .cta-research-btn {
+    background: transparent;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 12px var(--spacing-md);
+    border-radius: var(--spacing-xs);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  .cta-research-btn:hover {
+    background: var(--color-primary);
+    color: var(--color-white);
+  }
+  
+  /* Tablet Breakpoint */
+  @media (max-width: 1160px) {
+    .cta-title {
+      font-size: 28px;
+    }
+    
+    .cta-demo-btn,
+    .cta-research-btn {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Small Tablet Breakpoint */
+  @media (max-width: 1000px) {
+    .cta-section {
+      margin-top: var(--spacing-md);
+      padding-left: var(--spacing-lg);
+      padding-right: var(--spacing-lg);
+    }
+    
+    .cta-title {
+      font-size: var(--spacing-md);
+    }
+    
+    .cta-buttons {
+      margin-top: var(--spacing-md);
+      gap: var(--spacing-sm);
+    }
+  }
+  
+  /* Mobile Breakpoint */
+  @media (max-width: 750px) {
+    .cta-section {
+      margin-top: var(--spacing-md);
+      padding-left: var(--spacing-sm);
+      padding-right: var(--spacing-sm);
+    }
+    
+    .cta-buttons {
+      gap: var(--spacing-sm);
+    }
+  } 

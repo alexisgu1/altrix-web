@@ -37,7 +37,7 @@ export default function Header() {
         <nav className="nav-links" ref={navRef}>
           <Link to="/" className={isActive('/') ? 'active' : ''}>Platform</Link>
           <Link to="/security" className={isActive('/security') ? 'active' : ''}>Security</Link>
-          <a href="#">Company</a>
+          <Link to="/company" className={isActive('/company') ? 'active' : ''}>Company</Link>
           <a href="#">Legal</a>
           <a href="#">Research</a>
         </nav>
@@ -49,7 +49,7 @@ export default function Header() {
           <div className={`dropdown-menu ${menuOpen ? 'show' : ''}`}>
             <Link to="/" className={isActive('/') ? 'active' : ''}>Platform</Link>
             <Link to="/security" className={isActive('/security') ? 'active' : ''}>Security</Link>
-            <a href="#">Company</a>
+            <Link to="/company" className={isActive('/company') ? 'active' : ''}>Company</Link>
             <a href="#">Legal</a>
             <a href="#">Research</a>
             <button className="demo-btn outline dropdown-demo-btn">Request a demo</button>
