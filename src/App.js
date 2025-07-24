@@ -32,7 +32,7 @@ const HomePage = () => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/altrix-web">
       <div className="App">
         <Header />
         <Routes>
